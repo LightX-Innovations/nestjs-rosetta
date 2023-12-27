@@ -1,27 +1,30 @@
 {
-    "name": "@recursyve/nestjs-rosetta-sequelize",
-    "version": "10.0.0-beta.25",
+    "name": "@lightxinnovations/nestjs-rosetta-sequelize",
+    "version": "10.1.0",
     "publishConfig": {
         "access": "public"
     },
     "license": "MIT",
     "peerDependencies": {
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.14",
         "@nestjs/common": ">=10.2.0",
         "@nestjs/core": ">=10.2.0",
         "@nestjs/sequelize": ">=10.0.0",
-        "@recursyve/nestjs-rosetta-core": ">=10.0.0-beta.23",
         "reflect-metadata": "^0.1.13",
         "sequelize": "^6.33.0",
         "sequelize-typescript": "^2.1.5"
     },
+    "dependencies": {
+        "@lightxinnovations/nestjs-rosetta-core": "10.1.0"
+    },
     "devDependencies": {
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.14",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
-        "@recursyve/nestjs-rosetta-core": "^10.0.0-beta.25",
         "sequelize": "^6.6.5",
         "sequelize-typescript": "^2.1.0",
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "78683fdbc2c1c2c04d42f0966c722a6265add1d8"
+    "gitHead": "22d0971523ae8be38f3e26fa17540bc4353995fc"
 }

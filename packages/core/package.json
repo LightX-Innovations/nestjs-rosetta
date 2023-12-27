@@ -1,6 +1,6 @@
 {
-    "name": "@recursyve/nestjs-rosetta-core",
-    "version": "10.0.0-beta.25",
+    "name": "@lightxinnovations/nestjs-rosetta-core",
+    "version": "10.1.0",
     "publishConfig": {
         "access": "public"
     },
@@ -9,10 +9,12 @@
         "@nestjs/common": "^10.2.0",
         "@nestjs/core": "^10.2.0",
         "reflect-metadata": "^0.1.13",
-        "rxjs": "^7.5.5"
+        "rxjs": ">=7.5.5"
     },
     "dependencies": {
-        "accept-language-parser": "^1.5.0"
+        "accept-language-parser": "^1.5.0",
+        "rxjs": ">=7.5.5",
+        "tslib": "^2.6.2"
     },
     "devDependencies": {
         "@nestjs/common": "^10.2.7",
@@ -22,5 +24,5 @@
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "78683fdbc2c1c2c04d42f0966c722a6265add1d8"
+    "gitHead": "22d0971523ae8be38f3e26fa17540bc4353995fc"
 }
