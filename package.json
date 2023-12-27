@@ -1,13 +1,13 @@
 {
-    "name": "@lightx/nestjs-rosetta",
+    "name": "@lightxinnovations/nestjs-rosetta",
     "version": "1.0.0",
     "scripts": {
-        "build": "gulp build --dist node_modules/@lightx",
+        "build": "gulp build --dist node_modules/@lightxinnovations",
         "prebuild:prod": "npm run clean",
         "build:prod": "gulp build",
         "test": "jest",
         "clean": "gulp clean:bundle",
-        "prerelease": "gulp copy-misc && gulp build --dist node_modules/@lightx",
+        "prerelease": "gulp copy-misc && gulp build --dist node_modules/@lightxinnovations",
         "publish": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --force-publish --exact -m \"Publish %s release\"",
         "publish:beta": "npm run prerelease && npm run build:prod && ./node_modules/.bin/lerna publish --dist-tag=beta -m \"Publish %s release\""
     },

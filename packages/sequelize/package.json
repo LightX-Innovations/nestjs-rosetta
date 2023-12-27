@@ -6,7 +6,7 @@
     },
     "license": "MIT",
     "peerDependencies": {
-        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.1",
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.14",
         "@nestjs/common": ">=10.2.0",
         "@nestjs/core": ">=10.2.0",
         "@nestjs/sequelize": ">=10.0.0",
@@ -14,8 +14,11 @@
         "sequelize": "^6.33.0",
         "sequelize-typescript": "^2.1.5"
     },
+    "dependencies": {
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.14"
+    },
     "devDependencies": {
-        "@lightxinnovations/nestjs-rosetta-core": "10.0.14",
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.14",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
         "sequelize": "^6.6.5",
