@@ -1,6 +1,6 @@
 {
     "name": "@lightxinnovations/nestjs-rosetta-sequelize",
-    "version": "10.0.13",
+    "version": "10.0.14",
     "publishConfig": {
         "access": "public"
     },
@@ -15,7 +15,7 @@
         "sequelize-typescript": "^2.1.5"
     },
     "devDependencies": {
-        "@lightxinnovations/nestjs-rosetta-core": "10.0.13",
+        "@lightxinnovations/nestjs-rosetta-core": "10.0.14",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
         "sequelize": "^6.6.5",
