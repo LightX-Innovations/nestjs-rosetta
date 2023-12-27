@@ -1,6 +1,6 @@
 {
     "name": "@lightx/nestjs-rosetta-sequelize",
-    "version": "10.0.2-alpha.0",
+    "version": "10.0.3-alpha.0",
     "publishConfig": {
         "access": "public"
     },
@@ -15,7 +15,7 @@
         "sequelize-typescript": "^2.1.5"
     },
     "devDependencies": {
-        "@lightx/nestjs-rosetta-core": "10.0.2-alpha.0",
+        "@lightx/nestjs-rosetta-core": "10.0.3-alpha.0",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
         "sequelize": "^6.6.5",
@@ -23,5 +23,5 @@
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "78683fdbc2c1c2c04d42f0966c722a6265add1d8"
+    "gitHead": "34fc67a2fa742e5e89f44d1eebb3d0c7c60327c9"
 }
