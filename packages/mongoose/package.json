@@ -1,6 +1,6 @@
 {
     "name": "@lightx/nestjs-rosetta-mongoose",
-    "version": "10.0.4",
+    "version": "10.0.5",
     "publishConfig": {
         "access": "public"
     },
@@ -14,12 +14,12 @@
         "reflect-metadata": "^0.1.13"
     },
     "devDependencies": {
-        "@lightx/nestjs-rosetta-core": "10.0.4",
+        "@lightx/nestjs-rosetta-core": "10.0.5",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
         "mongoose": "^7.5.4",
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "146a43440bdf2b9dbfc5ca972d1564c30f5efb6a"
+    "gitHead": "c8682eab8d62163758aa5b4ac2faa0ef1148ff81"
 }
