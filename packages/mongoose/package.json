@@ -1,12 +1,12 @@
 {
-    "name": "@lightx/nestjs-rosetta-mongoose",
-    "version": "10.0.12",
+    "name": "@lightxinnovations/nestjs-rosetta-mongoose",
+    "version": "10.0.13",
     "publishConfig": {
         "access": "public"
     },
     "license": "MIT",
     "peerDependencies": {
-        "@lightx/nestjs-rosetta-core": ">=10.0.1",
+        "@lightxinnovations/nestjs-rosetta-core": ">=10.0.1",
         "@nestjs/common": ">=10.2.0",
         "@nestjs/core": ">=10.2.0",
         "@nestjs/mongoose": ">=10.0.0",
@@ -14,12 +14,12 @@
         "reflect-metadata": "^0.1.13"
     },
     "devDependencies": {
-        "@lightx/nestjs-rosetta-core": "10.0.12",
+        "@lightxinnovations/nestjs-rosetta-core": "10.0.13",
         "@nestjs/common": "^10.2.7",
         "@nestjs/core": "^10.2.7",
         "mongoose": "^7.5.4",
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "f910c9dbe29bd69e4983f7e5dcfa9c0c8d4318c2"
+    "gitHead": "22d0971523ae8be38f3e26fa17540bc4353995fc"
 }
