@@ -1,4 +1,4 @@
-import { TranslationObjectProcessor } from "@lightx/nestjs-rosetta-core";
+import { TranslationObjectProcessor } from "@lightxinnovations/nestjs-rosetta-core";
 
 export class SequelizeTranslationObjectProcessor
   implements TranslationObjectProcessor

@@ -1,7 +1,7 @@
 import {
   TranslationObject,
   TranslationObjectOptions,
-} from "@lightx/nestjs-rosetta-core";
+} from "@lightxinnovations/nestjs-rosetta-core";
 import { Model } from "sequelize-typescript";
 import { TRANSLATION_COLUMN_METADATA_KEY } from "../decorators/translation-column.decorator";
 import { TranslationColumnMetadataInterface } from "../interfaces/translation-column-metadata.interface";

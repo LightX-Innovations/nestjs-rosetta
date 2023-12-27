@@ -1,4 +1,4 @@
-import { TranslationObjectOptions } from "@lightx/nestjs-rosetta-core";
+import { TranslationObjectOptions } from "@lightxinnovations/nestjs-rosetta-core";
 
 export interface TranslationColumnMetadataInterface
   extends TranslationObjectOptions {

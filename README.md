@@ -21,17 +21,17 @@ We can provide multiple options to the module:
 
 ## Sequelize
 
-In order to use `nestjs-rosetta` with `Sequelize`, we first need to install `@lightx/nestjs-rosetta-sequelize`.
+In order to use `nestjs-rosetta` with `Sequelize`, we first need to install `@lightxinnovations/nestjs-rosetta-sequelize`.
 
 Once installed, we can add the `NestjsRosettaSequelizeModule` to our application's root module imports, and configure the `NestjsRosettaModule`:
 
 ```typescript
 import { Module } from "@nestjs/common";
-import { NestjsRosettaModule } from "@lightx/nestjs-rosetta-core";
+import { NestjsRosettaModule } from "@lightxinnovations/nestjs-rosetta-core";
 import {
   NestjsRosettaSequelizeModule,
   SequelizeTranslationObjectProcessor,
-} from "@lightx/nestjs-rosetta-sequelize";
+} from "@lightxinnovations/nestjs-rosetta-sequelize";
 
 @Module({
   imports: [
@@ -74,7 +74,7 @@ Now, whenever we retrieve model instances from the database and return them to t
 
 `TranslationObjectProcessor` are used to retrieve translatable properties on supported objects.
 
-For example, the `SequelizeTranslationObjectProcessor` (from `@lightx/nestjs-rosetta-sequelize`) returns the `dataValues` property of sequelize model instances, since we don't need to traverse the entire objects, because the user-defined values will always be in `dataValues`.
+For example, the `SequelizeTranslationObjectProcessor` (from `@lightxinnovations/nestjs-rosetta-sequelize`) returns the `dataValues` property of sequelize model instances, since we don't need to traverse the entire objects, because the user-defined values will always be in `dataValues`.
 
 ## `SkipTranslationStrategy`
 

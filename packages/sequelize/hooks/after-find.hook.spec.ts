@@ -1,4 +1,4 @@
-import { TranslationObject } from "@lightx/nestjs-rosetta-core";
+import { TranslationObject } from "@lightxinnovations/nestjs-rosetta-core";
 import {
   AllowNull,
   BelongsTo,

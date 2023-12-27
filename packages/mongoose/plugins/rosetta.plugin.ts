@@ -1,7 +1,7 @@
 import {
   TranslationObject,
   TranslationObjectOptions,
-} from "@lightx/nestjs-rosetta-core";
+} from "@lightxinnovations/nestjs-rosetta-core";
 import { Model, Schema } from "mongoose";
 import { TranslationFieldMetadataInterface } from "../interfaces/translation-field-metadata.interface";
 
