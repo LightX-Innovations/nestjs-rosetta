@@ -1,6 +1,6 @@
 {
     "name": "@lightx/nestjs-rosetta-core",
-    "version": "10.0.11",
+    "version": "10.0.12",
     "publishConfig": {
         "access": "public"
     },
@@ -22,5 +22,8 @@
         "tslint": "^6.1.2",
         "typescript": "^5.2.2"
     },
-    "gitHead": "a280a91196981ae0cbf4089bb442bb6f5b3f37f0"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LightX-Innovations/nestjs-rosetta.git"
+    }
 }
